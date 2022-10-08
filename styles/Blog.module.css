@@ -1,0 +1,77 @@
+.container {
+  max-width: 45vw;
+  margin: 50px auto;
+}
+
+.main {
+  min-height: 100vh;
+  margin-top: 50px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.blogs h3 {
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.btnprimary {
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btnprimary:hover {
+  color: black;
+  background-color: white;
+}
+@media only screen and (max-width: 820px) {
+  .container {
+    max-width: 75vw;
+  }
+  .blogs h3 {
+    font-size: 1.5rem;
+  }
+  .blogs p {
+    font-size: 15px;
+  }
+  .btnprimary {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .container {
+    max-width: 75vw;
+  }
+  .blogs h3 {
+    font-size: 1.2rem;
+  }
+  .blogs p {
+    font-size: 13px;
+  }
+  .btnprimary {
+    font-size: 9px;
+    padding: 4px 8px;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .container {
+    max-width: 75vw;
+  }
+  .blogs h3 {
+    font-size: 1rem;
+  }
+  .blogs p {
+    font-size: 11px;
+  }
+  .btnprimary {
+    font-size: 8px;
+    padding: 3px 6px;
+  }
+}
